@@ -1,0 +1,14 @@
+.sc1 {
+  /* border: 2px solid orangered; */
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+}
+
+.sc2 {
+  /* border: 2px solid green; */
+}
+
+.sc3 {
+  background: #f645481f;
+}
