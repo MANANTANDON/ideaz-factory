@@ -4,6 +4,7 @@ body::-webkit-scrollbar {
 
 body {
   -ms-overflow-style: none;
+  overflow-x: hidden;
 }
 .sticky {
   position: -webkit-sticky;

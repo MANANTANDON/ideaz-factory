@@ -6,9 +6,13 @@
 }
 
 .sc2 {
-  /* border: 2px solid green; */
+  background-color: #f64549;
+  color: white;
 }
-
 .sc3 {
   background: #f645481f;
+}
+
+.sc4 {
+  z-index: -10;
 }
