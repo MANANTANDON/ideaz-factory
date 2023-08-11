@@ -1,6 +1,7 @@
 import React from "react";
 import image2 from "../../../Assets/getset.png";
 import myImage from "../../../Assets/4d616e616e.jpeg";
+import { Newsletter } from "../Newsletter/Newsletter";
 
 export const BreakingNews = () => {
   return (
@@ -14,7 +15,7 @@ export const BreakingNews = () => {
                   Breaking News
                 </h1>
 
-                <div className="card bg-body-tertiary border-0 p-2">
+                <div className="card bg-body-tertiary border-0 p-2 mt-5">
                   <div className="card-body">
                     <img className="card-img-top" src={image2} alt="" />
                     <h4 className="card-text mt-4 fw-bold">
@@ -53,7 +54,9 @@ export const BreakingNews = () => {
               </div>
             </div>
           </div>
-          <div class="col-sm-4 mt-5"></div>
+          <div class="col-sm-4 mt-5">
+            <Newsletter />
+          </div>
         </div>
       </div>
     </React.Fragment>

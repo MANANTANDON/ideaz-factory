@@ -30,7 +30,7 @@ export const Header = () => {
             <span className="navbar-toggler-icon"></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarScroll">
-            <form className="d-flex ms-auto " role="search">
+            <form className="d-flex ms-auto" role="search">
               <div className="input-group me-3 hs1">
                 <input
                   className="form-control bg-body-tertiary border-0 hs2 pt-2 pb-2 ps-4 rounded-start-3"
