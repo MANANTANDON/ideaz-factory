@@ -16,7 +16,7 @@ export const Header = () => {
       <nav className="navbar navbar-expand-lg bg-white">
         <div className="container">
           <a className="navbar-brand mt-3 mb-3" href="#">
-            <img src={logo} alt="" className="img-fluid" />
+            <img src={logo} alt="" className="img-fluid col-6 col-md-11" />
           </a>
           <button
             className="navbar-toggler"

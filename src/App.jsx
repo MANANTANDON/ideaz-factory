@@ -1,6 +1,6 @@
 import Marquee from "react-fast-marquee";
 import { Header } from "./Components/Header/Header";
-import { Section } from "./Components/Section/Section";
+import { Section } from "./Components/Section/Top Stories/Section";
 import { Carousel } from "./Components/Carousel/Carousel";
 import appCss from "./App.module.css";
 
