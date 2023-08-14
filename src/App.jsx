@@ -8,8 +8,8 @@ function App() {
   return (
     <main>
       <div>
+        <Header />
         <div className={appCss.sticky}>
-          <Header />
           <Carousel />
           <Marquee
             speed={100}

@@ -4,6 +4,7 @@ import imageOne from "../../../Assets/image1.png";
 import "./Section.css";
 import { Trending } from "../Trending/Trending";
 import { BreakingNews } from "../Breaking News/BreakingNews";
+import { NewsFeed } from "../NewsFeed/NewsFeed";
 
 export const Section = () => {
   return (
@@ -38,6 +39,7 @@ export const Section = () => {
           </div>
         </div>
         <BreakingNews />
+        <NewsFeed />
       </div>
     </React.Fragment>
   );

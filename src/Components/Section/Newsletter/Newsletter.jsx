@@ -15,11 +15,11 @@ export const Newsletter = () => {
           </h6>
           <form className="d-flex ms-auto justify-content-center mt-5 mb-5">
             <input
-              type="text"
+              type="search"
               placeholder="write email address here"
-              className="rounded border-0 ps-2 col-8"
+              className=" rounded border-0 ps-2 col-8"
             />
-            <button className="btn bg-white text-danger ms-2">Sign Up</button>
+            <button className="btn bg-white text-danger ms-2 ">Sign Up</button>
           </form>
         </div>
       </div>
