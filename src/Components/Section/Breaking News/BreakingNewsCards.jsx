@@ -25,7 +25,8 @@ export const BreakingNewsCards = () => {
         <div className="card p-3 border-0">
           <img src={lalu} alt="" className="card-image-top rounded" />
           <p className="card-title fw-bold mt-3 fs-3">
-            Coronavirus : Warning over easing lockdown measures too quickly
+            Samosa & Lalu: Jab tak Samose mein rhega Aloo tbtk Bihar mein rhega
+            Lalu
           </p>
           {userDeets}
           <p className="card-text mt-4">

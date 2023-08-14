@@ -3,6 +3,7 @@ import { Header } from "./Components/Header/Header";
 import { Section } from "./Components/Section/Top Stories/Section";
 import { Carousel } from "./Components/Carousel/Carousel";
 import appCss from "./App.module.css";
+import { Footer } from "./Components/Footer/Footer";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <div>
           <Section />
         </div>
+        <Footer />
       </div>
     </main>
   );

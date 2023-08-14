@@ -1,0 +1,41 @@
+import React from "react";
+//styles
+import "./style/Sports.css";
+//images
+import lebron from "../../../Assets/lb.jpg";
+
+export const Sports = () => {
+  const testText = ["Sports Video"];
+  const testArr = [1, 2, 3, 4, 5];
+  return (
+    <React.Fragment>
+      <div className="container-xxl mb-5">
+        <div className="card border-0 mt-5 s1">{testText[0]}</div>
+        <div className="row row-cols-md-5">
+          {testArr.map((item, key) => (
+            <div className="card border-0 text-white mt-5" key={key}>
+              <img
+                className="card-img"
+                src={lebron}
+                alt=""
+                height={450}
+                width={300}
+              />
+              <div class="card-img-overlay">
+                <h5 class="card-title">WATCH</h5>
+                <p class="card-text">
+                  This is a wider card with supporting text below as a natural
+                  lead-in to additional content. This content is a little bit
+                  longer.
+                </p>
+                <p class="card-text">
+                  <small>Last updated 3 mins ago</small>
+                </p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </React.Fragment>
+  );
+};

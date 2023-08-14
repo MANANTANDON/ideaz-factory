@@ -5,6 +5,7 @@ import "./Section.css";
 import { Trending } from "../Trending/Trending";
 import { BreakingNews } from "../Breaking News/BreakingNews";
 import { NewsFeed } from "../NewsFeed/NewsFeed";
+import { Sports } from "../Sports/Sports";
 
 export const Section = () => {
   return (
@@ -40,6 +41,8 @@ export const Section = () => {
         </div>
         <BreakingNews />
         <NewsFeed />
+        <Sports />
+        <Sports />
       </div>
     </React.Fragment>
   );

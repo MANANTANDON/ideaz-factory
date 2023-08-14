@@ -22,7 +22,7 @@ export const NewsFeed = () => {
                 </div>
               </div>
             </div>
-            <div className="col-sm-8 border border-white"></div>
+            <div className="col-sm-8 border border-white mb-3"></div>
           </div>
         </div>
       </div>
