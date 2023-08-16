@@ -6,6 +6,7 @@ import { Carousel } from './Components/Carousel/Carousel';
 import appCss from './App.module.css';
 import { Footer } from './Components/Footer/Footer';
 import { Homepage } from './Components/HomePage/Homepage';
+import { DetailPage } from './Components/DetailPage/Detailpage';
 
 function App() {
   return (
@@ -42,7 +43,8 @@ function App() {
           <Carousel />
         </div>
         <div>
-          <Homepage />
+          {/* <Homepage /> */}
+          <DetailPage />
         </div>
         <Footer />
       </div>

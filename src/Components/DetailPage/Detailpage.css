@@ -1,0 +1,34 @@
+.dp1 {
+  color: #666666;
+}
+
+.dp2 {
+  text-align: justify;
+}
+
+.dp3 {
+  background-color: #ffc7cf;
+}
+
+.dp4 {
+  border-top: none;
+  border: 2px solid #ffc7cf;
+}
+
+.dp5 {
+  background-color: #f50022;
+}
+
+.dp5:hover {
+  background-color: #f50021c0;
+}
+
+.dp6 {
+  border: 2px solid #ffc7cf;
+  height: 20vh;
+  outline: none;
+}
+
+.dp7 {
+  cursor: pointer;
+}
