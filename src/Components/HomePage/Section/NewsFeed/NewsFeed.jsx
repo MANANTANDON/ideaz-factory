@@ -1,6 +1,6 @@
 import React from "react";
 import "./styles/Newsfeed.css";
-import newsFeed from "../../../Assets/Newsfeed.png";
+import newsFeed from "../../../../Assets/Newsfeed.png";
 
 export const NewsFeed = () => {
   const testText = [

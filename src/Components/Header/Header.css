@@ -1,5 +1,4 @@
 .hs1 {
-  width: 360px;
   outline: none;
 }
 
@@ -26,11 +25,7 @@
 
 .hc5 {
   background-color: #f64549;
-  border: none;
-  border-radius: 8px;
   color: white;
-  width: 80px;
-  font-size: 14px;
 }
 
 .hc5:hover {

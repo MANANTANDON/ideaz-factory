@@ -13,22 +13,12 @@ export const Carousel = () => {
     "Quizzes",
     "Interviews",
     "BooksArt",
-    "Politics",
-    "Economy",
-    "Ground Report",
-    "Explainers",
-    "Spotlight",
-    "FramePolls",
-    "Memes",
-    "Quizzes",
-    "Interviews",
-    "BooksArt",
   ];
   return (
     <React.Fragment>
       <nav className="navbar bg-body-tertiary h-4">
         <div className="container-fluid overflow-x-auto">
-          <div className="d-flex ms-5 mt-3 mb-3 ">
+          <div className="d-flex ms-5 mt-2 mb-2 ">
             {menuArr.map((item, key) => (
               <div key={key} className="ms-4">
                 <Button buttonText={item} />

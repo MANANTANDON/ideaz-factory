@@ -1,5 +1,5 @@
-import React from "react";
-import image2 from "../../../Assets/getset.png";
+import React from 'react';
+import image2 from '../../../../Assets/getset.png';
 
 export const TrendingSection = () => {
   return (
@@ -18,8 +18,8 @@ export const TrendingSection = () => {
           </div>
           <div className="col-sm-8">
             <div className="card-body">
-              <p className="card-text fw-bold" style={{ fontSize: "10px" }}>
-                TekTok Made Me Buy It Products You Shouldn't Sleep On
+              <p className="card-text fw-bold" style={{ fontSize: '10px' }}>
+                TekTok Made Me Buy It Products You Shouldnt Sleep On
               </p>
               <p className="card-text">
                 <small className="text-body-secondary">Aug 11, 2023</small>

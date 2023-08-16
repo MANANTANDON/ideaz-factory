@@ -2,7 +2,7 @@ import React from "react";
 //styles
 import "./style/Sports.css";
 //images
-import lebron from "../../../Assets/lb.jpg";
+import lebron from "../../../../Assets/lb.jpg";
 
 export const Sports = () => {
   const testText = ["Sports Video"];
@@ -10,7 +10,7 @@ export const Sports = () => {
   return (
     <React.Fragment>
       <div className="container-xxl mb-5">
-        <div className="card border-0 mt-5 s1">{testText[0]}</div>
+        <div className="card border-0 mt-5 s1 fw-bold">{testText[0]}</div>
         <div className="row row-cols-md-5">
           {testArr.map((item, key) => (
             <div className="card border-0 text-white mt-5" key={key}>
@@ -21,14 +21,14 @@ export const Sports = () => {
                 height={450}
                 width={300}
               />
-              <div class="card-img-overlay">
-                <h5 class="card-title">WATCH</h5>
-                <p class="card-text">
+              <div className="card-img-overlay">
+                <h5 className="card-title">WATCH</h5>
+                <p className="card-text">
                   This is a wider card with supporting text below as a natural
                   lead-in to additional content. This content is a little bit
                   longer.
                 </p>
-                <p class="card-text">
+                <p className="card-text">
                   <small>Last updated 3 mins ago</small>
                 </p>
               </div>

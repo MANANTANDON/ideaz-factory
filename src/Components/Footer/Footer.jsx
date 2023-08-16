@@ -6,7 +6,7 @@ export const Footer = () => {
     <React.Fragment>
       <footer className="container-fuild bg-black pb-5">
         <div className="container-xxl text-white">
-          <div className="row row-cols-md-3 row-cols-1">
+          <div className="row row-cols-lg-3 row-cols-1">
             <div className="col">
               <div className="card bg-transparent border-0 text-white">
                 <img src={logo} alt="" className="col-lg-5 col-4 mt-5 mb-5" />
@@ -15,7 +15,7 @@ export const Footer = () => {
                 <p>+91 9103536741</p>
               </div>
             </div>
-            <div className="col mt-5 ">
+            <div className="col mt-5">
               <div className="row">
                 <div className="card col-4 col-sm-6 bg-transparent text-white">
                   <div className="card-title fw-bold fs-5">Categories</div>

@@ -1,5 +1,5 @@
 import React from "react";
-import imageOne from "../../../Assets/image1.png";
+import imageOne from "../../../../Assets/image1.png";
 
 import "./Section.css";
 import { Trending } from "../Trending/Trending";

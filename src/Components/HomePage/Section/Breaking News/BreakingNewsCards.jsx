@@ -1,6 +1,6 @@
 import React from "react";
-import myImage from "../../../Assets/4d616e616e.jpeg";
-import lalu from "../../../Assets/lalu.png";
+import myImage from "../../../../Assets/4d616e616e.jpeg";
+import lalu from "../../../../Assets/lalu.png";
 
 export const BreakingNewsCards = () => {
   const userDeets = (

@@ -1,10 +1,9 @@
 import React from "react";
-import image2 from "../../../Assets/getset.png";
+import image2 from "../../../../Assets/getset.png";
 
 import { Newsletter } from "../Newsletter/Newsletter";
 import { TrendingSection } from "../Trending Section/TrendingSection";
 
-import { NavItem } from "react-bootstrap";
 import { BreakingNewsCards } from "./BreakingNewsCards";
 import { BreakingNewsTwo } from "./BreakingNewsTwo";
 
@@ -12,6 +11,7 @@ import { BreakingNewsTwo } from "./BreakingNewsTwo";
 import "./Styles/BreakingNews.css";
 
 export const BreakingNews = () => {
+  const testarr = [1, 2];
   return (
     <React.Fragment>
       <div className="container-xxl">
@@ -48,8 +48,9 @@ export const BreakingNews = () => {
               </div>
             </div>
             <div className="row g-0">
-              <BreakingNewsCards />
-              <BreakingNewsCards />
+              {testarr.map((item, key) => (
+                <BreakingNewsCards key={key} />
+              ))}
             </div>
           </div>
           <div className="col-sm-4 mt-5">

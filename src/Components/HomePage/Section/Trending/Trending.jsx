@@ -1,6 +1,6 @@
 import React from "react";
-import myImage from "../../../Assets/4d616e616e.jpeg";
-import rahulG from "../../../Assets/rahulG.png";
+import myImage from "../../../../Assets/4d616e616e.jpeg";
+import rahulG from "../../../../Assets/rahulG.png";
 
 export const Trending = () => {
   return (
