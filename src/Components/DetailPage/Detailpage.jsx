@@ -4,7 +4,39 @@ import icon1 from '../../Assets/icon1.png';
 import myImage from '../../Assets/4d616e616e.jpeg';
 import './Detailpage.css';
 import { BreakingNewsTwo } from '../HomePage/Section/Breaking News/BreakingNewsTwo';
+import { TrendingSection } from './TrendingSection/TrendingSection';
+
 export const DetailPage = () => {
+  const testArr = [1, 2, 3, 4, 5, 6];
+  const userDeets = (
+    <div className="d-flex gap-3 dp0">
+      <img
+        src={myImage}
+        alt=""
+        height="35"
+        width="35"
+        className="rounded-circle border"
+      />
+      <p className="mt-2 fw-bold">4d616e616e</p>
+      <p className="mt-2 dp1">Aug 10, 2023</p>
+      <p className="mt-2 ">12K</p>
+      <p className="mt-2">20</p>
+    </div>
+  );
+
+  const commentSectionDeets = (
+    <div className="d-flex gap-2 dp0">
+      <img
+        src={myImage}
+        alt=""
+        height="35"
+        width="35"
+        className="rounded-circle border"
+      />
+      <p className="mt-2 fw-bold">4d616e616e</p>
+      <p className="mt-2 dp1">2 hours ago</p>
+    </div>
+  );
   return (
     <React.Fragment>
       <div className="container-xxl">
@@ -28,19 +60,7 @@ export const DetailPage = () => {
                     />
                   </p>
                 </div>
-                <div className="d-flex flex-row">
-                  <img
-                    src={myImage}
-                    alt=""
-                    height="40"
-                    width="40"
-                    className="rounded-circle border"
-                  />
-                  <p className="ms-4 mt-2 fw-bold">4d616e616e</p>
-                  <p className="ms-4 mt-2 dp1">Aug 10, 2023</p>
-                  <p className="mt-2 ms-4">12K</p>
-                  <p className="mt-2 ms-4">20</p>
-                </div>
+                {userDeets}
                 <p className="text-emphasis-dark dp2">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
                   do eiusmod tempor incididunt ut labore et dolore magna aliqua.
@@ -103,11 +123,11 @@ export const DetailPage = () => {
                 <div className="card-title">
                   <p className="fw-bold fs-1">Comment</p>
                   <div className="card col border-0">
-                    <div className="card-text dp3 text-black border border-danger rounded-top">
-                      Manan Tandon
+                    <div className="card-text dp3 text-black border border-danger rounded-top p-3">
+                      {commentSectionDeets}
                     </div>
-                    <div className="card-text dp4 rounded-bottom">
-                      4d616e616e
+                    <div className="card-text dp4 rounded-bottom p-3">
+                      {commentSectionDeets}
                     </div>
                   </div>
                 </div>
@@ -121,7 +141,30 @@ export const DetailPage = () => {
                 </button>
               </div>
               {/* Right Card */}
-              <div className="card col-lg-4 border-0"></div>
+              <div className="card col-lg-4 border-0">
+                {/* AD CONT START */}
+                <img
+                  src={image1}
+                  alt=""
+                  className="card-img-top"
+                  height={400}
+                />
+                {/* AD CONT END */}
+                <div className="card-title fw-bold fs-2 p-2 mt-5">
+                  Trending Now
+                  {testArr.map((item, key) => (
+                    <TrendingSection key={key} />
+                  ))}
+                </div>
+                {/* AD CONT START */}
+                <img
+                  src={image1}
+                  alt=""
+                  className="card-img-bottom"
+                  height={600}
+                />
+                {/* AD CONT END */}
+              </div>
             </div>
           </div>
         </div>

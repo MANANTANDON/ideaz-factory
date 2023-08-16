@@ -1,3 +1,6 @@
+.dp0 {
+  font-size: 14px;
+}
 .dp1 {
   color: #666666;
 }
@@ -25,7 +28,6 @@
 
 .dp6 {
   border: 2px solid #ffc7cf;
-  height: 20vh;
   outline: none;
 }
 
